@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrewCraft</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>BrewCraft</title>
 </head>
-<body>
-    
+<body class=" bg-[#F5E9D3] font-sans">
+
+<!-- Navbar Start -->
+<nav class="flex items-center justify-between p-4 sticky top-0 z-50 bg-[#F5E9D3] shadow-md">
+  <div class="flex items-center">
+    <img class="h-[50px] w-[50px]" src="./src/logo.png" alt="BrewCraft Logo" />
+    <h1 class="text-2xl font-semibold text-[#4B2E19]">BrewCraft</h1>
+  </div>
+  <ul class="flex space-x-4 text-[#4B2E19] font-medium">
+    <li class="cursor-pointer">Home</li>
+    <li class="cursor-pointer">About</li>
+    <li class="cursor-pointer">Services</li>
+    <li class="cursor-pointer">Contact</li>
+  </ul>
+  <button class="px-4 py-2 bg-[#4B2E19] text-white rounded hover:bg-[#3a2114]">Login</button>
+</nav>
+<!-- Navbar End -->
+
+
+  
 </body>
 </html>
